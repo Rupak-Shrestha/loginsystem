@@ -1,0 +1,72 @@
+.box{
+	width: 260px;
+	background-color: lightgrey;
+	position: absolute;
+	left: 580px;
+}
+
+*{
+	margin: auto;
+	padding:0;
+}
+header{
+	width: 100%;
+	height:200px;
+	background: darkolivegreen;
+	color: antiquewhite;
+	text-align: center;
+}
+#list{
+	width: 100%;
+	height:50px;
+	background: mediumseagreen;
+}
+
+#list ul li{
+	display: inline;
+	font-size: 45px;
+	padding-left: 24px;
+}
+#list ul li a{
+	text-decoration: none;
+	color: antiquewhite;
+}
+
+#addbar{
+	width: 100%;
+	height: 50px;
+	background: darkseagreen;
+}
+
+#addbar a{
+	float: left;
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+	padding: 8px 0 0 30px;
+}
+
+#searchbar{
+	float: right;
+}
+
+#showdata{
+	width: 100%;
+	height: 500px;
+	background: mediumseagreen;
+}
+
+table{
+	background: ghostwhite;
+	color: black;
+}
+
+table tr{
+	text-align: center;
+}
+table a{
+	text-decoration: none;
+}
+footer a{
+	text-decoration: none;
+}
